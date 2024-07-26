@@ -1,38 +1,39 @@
 ## Maze
 School 21 programming school educational project.<br>
+The program is developed in C++17 using the SFML library.<br>
 
 Maze program is designed to read and display mazes from a file, as well as generate unique mazes of a given size. There is also a function for solving mazes from user-specified points.<br>
 
-![Open program](./readme_resources/first_start.png){ width=800px }
+![Open program](./readme_resources/first_start.png)
 
 You can open the maze file by clicking the "Open file" button.<br>
 
-![Open file](./readme_resources/open_file.png){ width=800px }
+![Open file](./readme_resources/open_file.png)
 
 
 To generate a maze, set the size in the range from 1 to 50 for the number of rows (cell on the left) and columns (cell on the right). 
 
-![Open file](./readme_resources/size_maze.png){ width=100px }
+![Open file](./readme_resources/size_maze.png)
 
 Next, click on the "Generate" button.<br>
 
-![Open file](./readme_resources/generate_maze_25_50.png){ width=800px }
+![Open file](./readme_resources/generate_maze_25_50.png)
 
-![Open file](./readme_resources/generate_maze_50_50.png){ width=800px }
+![Open file](./readme_resources/generate_maze_50_50.png)
 
 
 To launch the maze solving function, click on any point in the displayed maze. The first press sets the starting point.<br>
 
-![Open file](./readme_resources/point_A.png){ width=400px }
+![Open file](./readme_resources/point_A.png)
 
 Next, click again on any point of the displayed labyrinth. The second press sets the end point.<br>
 After this, a path to solve the maze between user-specified points will be constructed.<br>
 
-![Open file](./readme_resources/point_B.png){ width=400px }
+![Open file](./readme_resources/point_B.png)
 
 To reset the maze solution, click on the displayed maze again.<br>
 
-![Open file](./readme_resources/clean_maze.png){ width=400px }
+![Open file](./readme_resources/clean_maze.png)
 
 ## Installation
 To install, you will need cmake, make, and a GCC compiler.<br>
